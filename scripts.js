@@ -1,4 +1,4 @@
-let header = document.getElementById('header')
+let header = document.getElementById('header');
 
         window.addEventListener('scroll', () => {
             if (window.scrollY > 200) {
