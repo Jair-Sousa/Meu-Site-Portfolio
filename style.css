@@ -71,6 +71,8 @@ body{
     font-weight: 700;
 }
 
+
+
 #person{
     height: 100vh;
     width: 100%;
@@ -652,3 +654,5 @@ color: var(--color-blue);
         left: 100%;
     }
 }
+
+

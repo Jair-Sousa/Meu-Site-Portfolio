@@ -1,296 +1,316 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 jair sousa">
-    <meta name="jair" content="Jair Sousa programação e desenvolvimento WEB">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jair Sousa">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
     <link rel="stylesheet" href="./style.css">
-    
+    <link rel="stylesheet" href="./responsive.css">
+
     <title>Portfólio - Jair Sousa</title>
 </head>
 
 
-    <body>
-        <!-- Header  -->
-        <section id="header">
-            <a class="header-title" href="/">
-                <h1>
-                jairsousa.dev
-                </h1>
-            </a>
+<body>
+    <!-- Header  -->
+    <section id="header">
+        <a class="header-title" href="/">
+            <h1>jairsousa.dev</h1>
+        </a>
 
+        <nav class="navbar">
+            <!-- Menu tradicional para telas grandes -->
+            <ul>
+                <li><a href="#person">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contacts">Contatos</a></li>
+            </ul>
+        </nav>
 
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#person">Home</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#contacts">Contatos</a></li>
-                </ul>
-            </nav>
-        </section>
-        <!-- End Header  -->
+        <!-- Menu hambúrguer para telas pequenas -->
+        <div class="menu-amburguer">
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa fa-bars"></i>
+            </div>
 
-        <!-- Person -->
-        <section id="person">
-            <div class="person-content">
-                <div class="person-name">
-                    <h1>Olá<span></span></h1>
-                    <h1>Meu nome é<span></span></h1>
-                    <h1>Jair Sousa <span></span></h1>
-                </div>
+            <ul class="menu" id="menu">
+                <li><a href="#person">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contacts">Contatos</a></li>
+            </ul>
+        </div>
 
-                <div class="stacks-content">
-                    <h3>Techs :</h3>
+        <!-- <div id="menu-toggle">
+             <i class="fa fa-bars"></i>
+        </div> -->
 
-                    <div class="stacks">
-                        <ul>
-                            <li>
-                                <div data="HTML">
+    </section>
+
+    <!-- End Header  -->
+
+    <!-- Person -->
+    <section id="person">
+        <div class="person-content">
+            <div class="person-name">
+                <h1>Olá<span></span></h1>
+                <h1>Meu nome é<span></span></h1>
+                <h1>Jair Sousa <span></span></h1>
+            </div>
+
+            <div class="stacks-content">
+                <h3>Techs :</h3>
+
+                <div class="stacks">
+                    <ul>
+                        <li>
+                            <div data="HTML">
                                 <img src="./svg/html.svg" alt="html-icon">
-                                </div>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <div data="CSS">
-                                    <img src="./svg/css.svg" alt="css-icon">
-                                </div>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <div data="JS">
-                                    <img src="./svg/js.svg" alt="js-icon">
-                                </div>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <div data="REACT">
-                                    <img src="./svg/react.svg" alt="react-icon">
-                                </div>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <div data="NODE">
-                                    <img src="./svg/node (1).svg" alt="node-icon">
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="CSS">
+                                <img src="./svg/css.svg" alt="css-icon">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="JS">
+                                <img src="./svg/js.svg" alt="js-icon">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="REACT">
+                                <img src="./svg/react.svg" alt="react-icon">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div data="NODE">
+                                <img src="./svg/node (1).svg" alt="node-icon">
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
 
 
-            <div class="person-background">
-                <div class="wrapper-profile-photo">
-                    <img class="profile-photo" src="./img/perfil5.1.jpg" alt="foto-jair">
-                </div>
+        <div class="person-background">
+            <div class="wrapper-profile-photo">
+                <img class="profile-photo" src="./img/perfil5.1.jpg" alt="foto-jair">
+            </div>
 
-                <div class="links">
-                    <a href="https://github.com/Jair-Sousa" target="_blank">
+            <div class="links">
+                <a href="https://github.com/Jair-Sousa" target="_blank">
                     <img src="./svg/logo-github.svg" alt="github-icon">
-                    </a>
-                    <a href="https://www.linkedin.com/in/jair-sousa-ads/" target="_blank">
-                    <img src="./svg/logo-linkedin.svg" alt="linkedin-icon">                
-                    </a>             
-                </div>
-
+                </a>
+                <a href="https://www.linkedin.com/in/jair-sousa-ads/" target="_blank">
+                    <img src="./svg/logo-linkedin.svg" alt="linkedin-icon">
+                </a>
             </div>
 
+        </div>
 
-        </section>
-        <!-- End Person -->
 
-        <!-- About  -->
-        <section id="about">
-            <div class="background-about">
-                <div class="img-wrapper">
-                    <img src="./img/img.2.jpg" alt="img2-notebook">
-                </div>
+    </section>
+    <!-- End Person -->
+
+    <!-- About  -->
+    <section id="about">
+        <div class="background-about">
+            <div class="img-wrapper">
+                <img src="./img/img.2.jpg" alt="img2-notebook">
             </div>
+        </div>
 
-            <div class="box-about">
-                <div class="section-subtitle">
-                    <h2>
-                        <p>💻</p>
-                        <p><span>Desenvolvedor jr.</span>Full Stack</p>
-                    </h2>
-
-                    <h3>
-                        Sou um Desenvolvedor jr. Full Stack com conhecimentos em 
-                        <p>HTML, CSS, JavaScript, Node.Js, Python, Git, Github, Github-Copilot, MySQL, Bootstrap, React...</p>
-                    </h3>
-
-                    <h4>Meu nome é Jair Sousa, tenho experiência em gestão de negócio e liderança de pessoas, atuando no grupo Carrefour - ramo do Varejo. Atualmente estou aberto para oportunidades na área de TI. Em busca de novos desafios.</h4>
-
-                    <h4>Abaixo está o meu <p>currículo</p> para download.</h4>
-
-                    <div class="button-cta">
-                        <a href="public/document/cvJairSousa.pdf" download="CV-JairSousa" aria-label="Baixar currículo Jair Sousa">
-                            Currículo
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- End About -->
-
-        <!-- Projects  -->
-        <section id="projects">
-            <div class="projects-title">
-                <h2>PROJETOS 🧩</h2>
-            </div>
-
-            <div class="wrapper-projects">
-                <div class="card-project">
-                    <div class="content-project">
-                        <div class="image-project">
-                            <a href="/">
-                            <img src="./img/calculadora.PNG" alt="img-calculadora">
-                            </a>
-                        </div>
-
-                        <span>Calculadora de Juros compostos</span>
-
-                        <p>Este projeto, calcula juros ao mês progressivamente</p>
-
-                        <div class="cta-project">
-                            <a href="https://github.com/Jair-Sousa/Calculadora-de-Juros-Composto-" target="_blank">
-                                Código
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="https://github.com/Jair-Sousa" target="_blank">
-                                Site
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-project">
-                    <div class="content-project">
-                        <div class="image-project">
-                            <a href="/">
-                            <img src="./img/carrocel.PNG" alt="img-conversor">
-                            </a>
-                        </div>
-
-                        <span>Carrossel de Natal</span>
-
-                        <p>Este projeto foi desenvolvido com HTML, CSS e JavaScript.</p>
-
-                        <div class="cta-project">
-                            <a href="https://github.com/Jair-Sousa/Carrocel-de-Natal" target="_blank">
-                                Código
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="https://github.com/Jair-Sousa" target="_blank">
-                                Site
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-project">
-                    <div class="content-project">
-                        <div class="image-project">
-                            <a href="/">
-                            <img src="./img/login.PNG" alt="img-login">
-                            </a>
-                        </div>
-
-                        <span>Login com array</span>
-
-                        <p>Este projeto, simula uma tela de login com o uso de array.</p>
-
-                        <div class="cta-project">
-                            <a href="https://github.com/Jair-Sousa/Validacao-Login-Array" target="_blank">
-                                Código
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="https://github.com/Jair-Sousa" target="_blank">
-                                Site
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="other-projects">
-                <h2>🧩 OUTROS PROJETOS  
-                    <a href="https://github.com/Jair-Sousa?tab=repositories" target="_blank">
-                        GitHub
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
+        <div class="box-about">
+            <div class="section-subtitle">
+                <h2>
+                    <p>💻</p>
+                    <p><span>Desenvolvedor jr.</span>Full Stack</p>
                 </h2>
-            </div>
-        </section>
-        <!-- End Projects  -->
 
+                <h3>
+                    Sou um Desenvolvedor jr. Full Stack com conhecimentos em
+                    <p>HTML, CSS, JavaScript, Node.Js, Python, Git, Github, Github-Copilot, MySQL, Bootstrap, React...
+                    </p>
+                </h3>
 
-        <section id="contacts">
-            <div class="contact-icon-content">
-                <h2>Contatos 📞</h2>
-            </div>
+                <h4>Meu nome é Jair Sousa, tenho experiência em gestão de negócio e liderança de pessoas, atuando no
+                    grupo Carrefour - ramo do Varejo. Atualmente estou aberto para oportunidades na área de TI. Em busca
+                    de novos desafios.</h4>
 
-            <div class="contact-icons-wrapper">
-                <div class="contact-icon-content">
-                    <div class="contact-icon">
-                        <i class="fa-solid fa-map-location-dot"></i>
-                    </div>
-                    <div class="contact-info">
-                        <span>Localização</span>
-                        <p>Goiás, Brasil</p>
-                    </div>
+                <h4>Abaixo está o meu <p>currículo</p> para download.</h4>
+
+                <div class="button-cta">
+                    <a href="public/document/cvJairSousa.pdf" download="CV-JairSousa"
+                        aria-label="Baixar currículo Jair Sousa">
+                        Currículo
+                    </a>
                 </div>
+            </div>
+        </div>
 
-                <div class="contact-icon-content">
-                    <div class="contact-icon">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                    </div>
-                    <div class="contact-info">
-                        <span>E-mail</span>
-                        <a href="mailto:jairdomma@gmail.com" target="_blank">
-                            jairdomma@gmail.com
+    </section>
+    <!-- End About -->
+
+    <!-- Projects  -->
+    <section id="projects">
+        <div class="projects-title">
+            <h2>PROJETOS 🧩</h2>
+        </div>
+
+        <div class="wrapper-projects">
+            <div class="card-project">
+                <div class="content-project">
+                    <div class="image-project">
+                        <a href="/">
+                            <img src="./img/calculadora.PNG" alt="img-calculadora">
                         </a>
-                        
+                    </div>
+
+                    <span>Calculadora de Juros compostos</span>
+
+                    <p>Este projeto, calcula juros ao mês progressivamente</p>
+
+                    <div class="cta-project">
+                        <a href="https://github.com/Jair-Sousa/Calculadora-de-Juros-Composto-" target="_blank">
+                            Código
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                     </div>
                 </div>
+            </div>
 
-                <div class="contact-icon-content">
-                    <div class="contact-icon">
-                        <i class="fa-solid fa-mobile"></i>
+            <div class="card-project">
+                <div class="content-project">
+                    <div class="image-project">
+                        <a href="/">
+                            <img src="./img/carrocel.PNG" alt="img-conversor">
+                        </a>
                     </div>
-                    <div class="contact-info">
-                        <span>Telefone</span>
-                        <a href="tel:61981389385"> (61)981389385</a>                    
+
+                    <span>Carrossel de Natal</span>
+
+                    <p>Este projeto foi desenvolvido com HTML, CSS e JavaScript.</p>
+
+                    <div class="cta-project">
+                        <a href="https://github.com/Jair-Sousa/Carrocel-de-Natal" target="_blank">
+                            Código
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <!-- <a href="https://github.com/Jair-Sousa" target="_blank">
+                            Site
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a> -->
+
                     </div>
+                </div>
+            </div>
+
+            <div class="card-project">
+                <div class="content-project">
+                    <div class="image-project">
+                        <a href="/">
+                            <img src="./img/login.PNG" alt="img-login">
+                        </a>
+                    </div>
+
+                    <span>Login com array</span>
+
+                    <p>Este projeto, simula uma tela de login com o uso de array.</p>
+
+                    <div class="cta-project">
+                        <a href="https://github.com/Jair-Sousa/Validacao-Login-Array" target="_blank">
+                            Código
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <!-- <a href="https://github.com/Jair-Sousa" target="_blank">
+                            Site
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a> -->
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="other-projects">
+            <h2>🧩 OUTROS PROJETOS
+                <a href="https://github.com/Jair-Sousa?tab=repositories" target="_blank">
+                    GitHub
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </h2>
+        </div>
+    </section>
+    <!-- End Projects  -->
+
+
+    <section id="contacts">
+        <div class="contact-icon-content">
+            <h2>Contatos 📞</h2>
+        </div>
+
+        <div class="contact-icons-wrapper">
+            <div class="contact-icon-content">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <div class="contact-info">
+                    <span>Localização</span>
+                    <p>Goiás, Brasil</p>
+                </div>
+            </div>
+
+            <div class="contact-icon-content">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                </div>
+                <div class="contact-info">
+                    <span>E-mail</span>
+                    <a href="mailto:jairdomma@gmail.com" target="_blank">
+                        jairdomma@gmail.com
+                    </a>
 
                 </div>
             </div>
-        </section>
-        <!-- Footer  -->
-        <section id="footer">
-            <div class="container-footer">
-                <h2>Feito com ❤️ por</h2>
-                <h3>Jair Sousa ©️ 2024</h3>
+
+            <div class="contact-icon-content">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-mobile"></i>
+                </div>
+                <div class="contact-info">
+                    <span>Telefone</span>
+                    <a href="tel:61981389385"> (61)981389385</a>
+                </div>
+
             </div>
-        </section>
-        <!-- End Footer  -->
-        <script src="scripts.js"> </script>
-    </body>
-</html
+        </div>
+    </section>
+    <!-- Footer  -->
+    <section id="footer">
+        <div class="container-footer">
+            <h2>Feito com ❤️ por</h2>
+            <h3>Jair Sousa ©️ 2024</h3>
+        </div>
+    </section>
+    <!-- End Footer  -->
+    <script src="scripts.js"> </script>
+</body>
+
+</html>
