@@ -42,6 +42,7 @@ body{
 .header-title h1{
     color: var(--color-white);
     font-size: 2rem;
+    margin-left: 1em;
     transition: opacity .3s;
 }
 
